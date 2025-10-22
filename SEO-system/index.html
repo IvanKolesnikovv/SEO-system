@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query1194px.css">
+  <link rel="stylesheet" href="slider_advantages.css">
+  <link rel="stylesheet" href="media-query390px.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="card-small.html">
+  <title>SEO-system</title>
+</head>
+
+<body>
+  <header>
+    <div class="header_container">
+      <div class="header">
+        <!-- Бургер-меню для мобильных -->
+        <div class="burger-menu" style="display: none;">
+          <span></span>
+          <span></span>
+          <span style="width: 50%; margin-left: 50% !important;"></span>
+        </div>
+        
+        <!-- Мобильное меню -->
+        <div class="mobile-menu" style="display: none;">
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">Главная</li>
+            <li class="mobile-menu-item">Услуги</li>
+            <li class="mobile-menu-item">Проекты</li>
+            <li class="mobile-menu-item">О нас</li>
+            <li class="mobile-menu-item">Контакты</li>
+          </ul>
+        </div>
+        
+        <!-- Оверлей для меню -->
+        <div class="menu-overlay"></div>
+        <img src="icons/icon_header.svg" />
+        <img style="display: none;" id="contact" src="icons/telephone.svg" alt="telephone">
+
+        <div class="header_list_container">
+          <!-- Ваше существующее меню -->
+          <ul class="header_list" id="headerNav">
+            <li class="header_list__inner">Главная</li>
+            <li class="header_list__inner">Услуги</li>
+            <li class="header_list__inner">Проекты</li>
+            <li class="header_list__inner">О нас</li>
+            <li class="header_list__inner">Контакты</li>
+          </ul>
+        </div>
+
+        <div class="contact">
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <img src="icons/telephone.svg" alt="telephone">
+            <a href=""
+              style="text-decoration: none; display: block; padding-top: 9px; padding-bottom: 6px;">+7(495)859-21-36</a>
+          </div>
+          <button class="btn btn_zayavka">Отправить заявку
+            <img src="icons/arrow_right.svg">
+          </button>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+     <nav class="nav">
+  <ul class="header_nav">
+    <li class="header_nav__inner header_nav__inner__ visible-item">Яндекс продвижение</li>
+    <li class="header_nav__inner visible-item">Google продвижение</li>
+    <li class="header_nav__inner visible-item">Разработка сайтов</li>
+    <li class="header_nav__inner visible-item">Интернет-магазины</li>
+    <li class="header_nav__inner visible-item">Мобильные приложения</li>
+    <li class="header_nav__inner hidden-item">Брендинг</li>
+    <li class="header_nav__inner hidden-item">SEO-продвижение</li>
+    <li class="header_nav__inner hidden-item">Лендинги</li>
+    <li class="header_nav__inner header_nav__inner_390px" style="display: none;">
+      Предоставляемые услуги 
+      <img src="icons/arrow__right.svg" alt="">
+    </li>
+    <li class="header_nav__inner more-services" style="color: rgba(12, 71, 160, 1);display: flex; align-items: center;">
+      Больше услуг
+      <img src="icons/solar_arrow-right-linear.svg" alt="">
+    </li>
+  </ul>
+</nav>
+    </div>
+  </header>
+
+  <div class="text">
+    <img src="icons/Heading/H1.svg" alt="">
+    <img id="h1_390px" style="display: none;" src="icons/Subheading/Heading/H1.svg" alt="">
+
+    <p class="p_text"><img src="icons/Subheading/Stars.svg" alt=""><br><span class="seo_span">SEO-студия</span>, помогающая
+      вашему<br>
+      бизнесу расти. Оптимизируем<br>сайты, увеличиваем трафик и<br> выводим в топ поисковых<br> систем.</p>
+      <p class="p_text_390" style="display: none;"><img src="icons/Subheading/Stars.svg" alt=""><br><span class="seo_span">SEO-студия</span>, помогающая
+        вашему<br>
+        бизнесу расти. Оптимизируем<br>сайты, увеличиваем трафик и<br> выводим в топ поисковых систем.</p>
+  </div>
+
+
+
+  <div class="container_2">
+    <div class="cards-row">
+      <!-- Главная карточка -->
+      <div class="card card-main">
+        <div class="card-content">
+          <div class="card-content_container1">
+            <div class="card-content_button_container"><button class="card-content_button card-content_button_1">
+                <p>SEO</p>
+              </button></div>
+            <div class="card-content_button_container"><button class="card-content_button">
+                <p> Контент-маркитинг</p>
+              </button></div>
+            <div class="card-content_button_container"><button class="card-content_button">
+                <p>Аудит сайта</p>
+              </button></div>
+          </div>
+          <div class="card-content_container2">
+            <div class="card-content_button_container"><button class="card-content_button card-content_button_1">
+                <p>Ссылочное продвижение</p>
+              </button></div>
+            <div class="card-content_button_container"><button class="card-content_button">
+                <p>Техническая оптимизация</p>
+              </button></div>
+          </div>
+
+          <div class="card_footer">
+            <div class="card_footer_inner"><img src="icons/circle.svg" alt="">
+              <h3>Креативность, инновации, прогресс</h3>
+            </div>
+            <div class="circle_1">
+              <p>01</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Маленькие карточки -->
+      <div class="card card-small" onclick="toggleCard(this, 1)">
+        <div class="card-content">
+          <div class="card-content_inner">Digital-продукты</div>
+          <div class="circle">
+            <p>02</p>
+          </div>
+        </div>
+        <div class="card-content_2" style="background-image:url(images/card2.png)">
+          <div class="card-content_none">
+            <div class="circle_and_image">
+              <div class="circle_none">
+                <p>02</p>
+              </div>
+              <img src="icons/Service/DIGITAL_ico.svg" alt="">
+            </div>
+            <div class="card-content_none_text">
+              <h2>Digital продукты</h2>
+              <p>Создаем и развиваем digital-продукты: от веб- <br>сервисов и мобильных приложений до сложных платформ.
+              </p>
+            </div>
+            <button disabled class="btn btn_card_none">Подробнее
+              <img src="images/arrow-black.svg">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-small" onclick="toggleCard(this, 2)">
+        <div class="card-content">
+          <div class="card-content_inner">Маркетингг</div>
+
+          <div class="circle">
+            <p>03</p>
+          </div>
+        </div>
+        <div class="card-content_3" style="background-image:url(images/card3.png)">
+          <div class="card-content_none">
+            <div class="circle_and_image">
+              <div class="circle_none">
+                <p>03</p>
+              </div>
+              <img src="icons/Service/MARKETING_ico.svg" alt="">
+            </div>
+            <div class="card-content_none_text card-content_none_text_TEXT">
+              <h2>Маркетинг</h2>
+              <p>Настраиваем и ведем рекламу, продвигаем в соцсетях, привлекаем лидов и повышаем лояльность.</p>
+            </div>
+            <button disabled class="btn btn_card_none">Подробнее
+              <img src="images/arrow-black.svg">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-small" onclick="toggleCard(this, 3)">
+        <div class="card-content">
+          <div class="card-content_inner" style="bottom: 182px;">Топовое SEO <br>продвижение</div>
+
+          <div class="circle">
+            <p>04</p>
+          </div>
+        </div>
+        <div class="card-content_4" style="background-image:url(images/card4.png)">
+          <div class="card-content_none">
+            <div class="circle_and_image">
+              <div class="circle_none">
+                <p>04</p>
+              </div>
+              <img src="icons/Service/SEO_ico.svg" alt="">
+            </div>
+            <div class="card-content_none_text">
+              <h2>топовое seo продвижение</h2>
+              <p>Продвигаем сайты, повышаем их видимость и привлекаем целевой трафик для роста бизнеса.</p>
+            </div>
+            <button disabled class="btn btn_card_none">Подробнее
+              <img src="images/arrow-black.svg">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-small" onclick="toggleCard(this, 4)">
+        <div class="card-content">
+          <div class="card-content_inner">Создание сайтов</div>
+
+          <div class="circle">
+            <p>05</p>
+          </div>
+        </div>
+        <div class="card-content_5" style="background-image:url(images/card5.png)">
+          <div class="card-content_none">
+            <div class="circle_and_image">
+              <div class="circle_none">
+                <p>05</p>
+              </div>
+              <img src="icons/Service/NEW_SITE_ico.svg" alt="">
+            </div>
+            <div class="card-content_none_text">
+              <h2>Создание сайтов</h2>
+              <p>Разрабатываем продающие сайты, которые привлекают клиентов, отражают ценности бренда.</p>
+            </div>
+            <button disabled class="btn btn_card_none">Подробнее
+              <img src="images/arrow-black.svg">
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card card-small" onclick="toggleCard(this, 5)">
+        <div class="card-content">
+          <div class="card-content_inner">Дизайн</div>
+
+          <div class="circle">
+            <p>06</p>
+          </div>
+        </div>
+        <div class="card-content_6" style="background-image:url(images/card6.png)">
+          <div class="card-content_none">
+            <div class="circle_and_image">
+              <div class="circle_none">
+                <p>06</p>
+              </div>
+              <img src="icons/Service/DESIGN_ico.svg" alt="">
+            </div>
+            <div class="card-content_none_text card-content_none_text_TEXT">
+              <h2>дизайн</h2>
+              <p>Создаем целостный визуальный образ бренда: от логотипа и айдентики до дизайна интерфейсов.</p>
+            </div>
+            <button disabled class="btn btn_card_none">Подробнее
+              <img src="images/arrow-black.svg">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  <div class="container_2  container_2_390px" style="display: none;">
+    <div class="cards-row">
+      <!-- Главная карточка -->
+      <div class="card card-main">
+        <div class="card-content">
+          <div class="card-content_container1">
+            <div class="card-content_button_container">
+              <button class="card-content_button card-content_button_1">
+                <p>SEO</p>
+              </button>
+            </div>
+            <div class="card-content_button_container">
+              <button class="card-content_button">
+                <p>Контент-маркитинг</p>
+              </button>
+            </div>
+            <div class="card-content_button_container">
+              <button class="card-content_button">
+                <p>Аудит сайта</p>
+              </button>
+            </div>
+          </div>
+          <div class="card-content_container2">
+            <div class="card-content_button_container">
+              <button class="card-content_button card-content_button_1">
+                <p>Ссылочное продвижение</p>
+              </button>
+            </div>
+            <div class="card-content_button_container">
+              <button class="card-content_button">
+                <p>Техническая оптимизация</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="card_footer">
+            <div class="card_footer_inner">
+              <img src="icons/circle.svg" alt="">
+              <h3>Креативность, инновации, прогресс</h3>
+            </div>
+            <div class="circle_1">
+              <p>01</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="text_2 text_2_390px" style="display: none;">
+        <p class="info">98% Успешных кейсов</p>
+        <p class="info">300+ Сделанных проектов</p>
+        <p class="info">24/7 Поддержка клиентов</p>
+      </div>
+
+      <!-- Контейнер для слайдера маленьких карточек -->
+      <div class="cards-slider-container">
+        <div class="cards-slider">
+          <!-- Маленькие карточки -->
+          <div class="card card-small mobile-card" onclick="toggleCard(this, 1)">
+            <div class="card-content mobile-default-hidden">
+              <div class="card-content_inner">Digital-продукты</div>
+              <div class="circle">
+                <p>02</p>
+              </div>
+            </div>
+            <div class="card-content_2 mobile-default-visible" style="background-image:url(images/card2.png)">
+              <div class="card-content_none">
+                <div class="circle_and_image">
+                  <div class="circle_none">
+                    <p>02</p>
+                  </div>
+                  <img src="icons/Service/DIGITAL_ico.svg" alt="">
+                </div>
+                <div class="card-content_none_text">
+                  <h2>Digital продукты</h2>
+                  <p>Создаем и развиваем digital-продукты: от веб-сервисов и мобильных приложений до сложных платформ.
+                  </p>
+                </div>
+                <button disabled class="btn btn_card_none">Подробнее
+                  <img src="images/arrow-black.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-small mobile-card" onclick="toggleCard(this, 2)">
+            <div class="card-content mobile-default-hidden">
+              <div class="card-content_inner">Маркетинг</div>
+              <div class="circle">
+                <p>03</p>
+              </div>
+            </div>
+            <div class="card-content_3 mobile-default-visible" style="background-image:url(images/card3.png)">
+              <div class="card-content_none">
+                <div class="circle_and_image">
+                  <div class="circle_none">
+                    <p>03</p>
+                  </div>
+                  <img src="icons/Service/MARKETING_ico.svg" alt="">
+                </div>
+                <div class="card-content_none_text card-content_none_text_TEXT">
+                  <h2>Маркетинг</h2>
+                  <p>Настраиваем и ведем рекламу, продвигаем в соцсетях, привлекаем лидов и повышаем лояльность.</p>
+                </div>
+                <button disabled class="btn btn_card_none">Подробнее
+                  <img src="images/arrow-black.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-small mobile-card" onclick="toggleCard(this, 3)">
+            <div class="card-content mobile-default-hidden">
+              <div class="card-content_inner">Топовое SEO<br>продвижение</div>
+              <div class="circle">
+                <p>04</p>
+              </div>
+            </div>
+            <div class="card-content_4 mobile-default-visible" style="background-image:url(images/card4.png)">
+              <div class="card-content_none">
+                <div class="circle_and_image">
+                  <div class="circle_none">
+                    <p>04</p>
+                  </div>
+                  <img src="icons/Service/SEO_ico.svg" alt="">
+                </div>
+                <div class="card-content_none_text">
+                  <h2>топовое seo продвижение</h2>
+                  <p>Продвигаем сайты, повышаем их видимость и привлекаем целевой трафик для роста бизнеса.</p>
+                </div>
+                <button disabled class="btn btn_card_none">Подробнее
+                  <img src="images/arrow-black.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-small mobile-card" onclick="toggleCard(this, 4)">
+            <div class="card-content mobile-default-hidden">
+              <div class="card-content_inner">Создание сайтов</div>
+              <div class="circle">
+                <p>05</p>
+              </div>
+            </div>
+            <div class="card-content_5 mobile-default-visible" style="background-image:url(images/card5.png)">
+              <div class="card-content_none">
+                <div class="circle_and_image">
+                  <div class="circle_none">
+                    <p>05</p>
+                  </div>
+                  <img src="icons/Service/NEW_SITE_ico.svg" alt="">
+                </div>
+                <div class="card-content_none_text">
+                  <h2>Создание сайтов</h2>
+                  <p>Разрабатываем продающие сайты, которые привлекают клиентов, отражают ценности бренда.</p>
+                </div>
+                <button disabled class="btn btn_card_none">Подробнее
+                  <img src="images/arrow-black.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-small mobile-card" onclick="toggleCard(this, 5)">
+            <div class="card-content mobile-default-hidden">
+              <div class="card-content_inner">Дизайн</div>
+              <div class="circle">
+                <p>06</p>
+              </div>
+            </div>
+            <div class="card-content_6 mobile-default-visible" style="background-image:url(images/card6.png)">
+              <div class="card-content_none">
+                <div class="circle_and_image">
+                  <div class="circle_none">
+                    <p>06</p>
+                  </div>
+                  <img src="icons/Service/DESIGN_ico.svg" alt="">
+                </div>
+                <div class="card-content_none_text card-content_none_text_TEXT">
+                  <h2>дизайн</h2>
+                  <p>Создаем целостный визуальный образ бренда: от логотипа и айдентики до дизайна интерфейсов.</p>
+                </div>
+                <button disabled class="btn btn_card_none">Подробнее
+                  <img src="images/arrow-black.svg">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+<div class="cards-slider-indicators">
+  <div class="cards-slider-indicator active" data-slide="0"></div>
+  <div class="cards-slider-indicator" data-slide="1"></div>
+  <div class="cards-slider-indicator" data-slide="2"></div>
+  <div class="cards-slider-indicator" data-slide="3"></div>
+  <div class="cards-slider-indicator" data-slide="4"></div>
+</div>
+
+    </div>
+  </div>
+
+
+
+  <section class="stats">
+    <div class="text_2">
+      <p class="info">98% Успешных кейсов</p>
+      <p class="info">24/7 Поддержка клиентов</p>
+      <p class="info">300+ Сделанных проектов</p>
+    </div>
+
+
+    <div class="buttom_header">
+      <div class="buttom_header_sec1">
+        <h2 class="buttom_header_h2">Рост на основе
+          анализа данных</h2>
+        <button class="btn btn_audit">Провести аудит
+          <img src="icons/arrow_right.svg">
+        </button>
+      </div>
+
+      <div class="buttom_header_sec2">
+        <ul class="buttom_header_list">
+          <li class="buttom_header_list-inner">
+            <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/diagr.png" alt="">
+              <div class="buttom_header_list_text1">Качество<p class="buttom_header_list_text2">
+                  10 000+</p>
+              </div>
+            </div>
+
+          </li>
+          <li class="buttom_header_list-inner">
+            <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/list.png" alt="">
+              <div class="buttom_header_list_text1">Гарантия<p class="buttom_header_list_text2">
+                  100%</p>
+              </div>
+            </div>
+
+          </li>
+          <li class="buttom_header_list-inner">
+            <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/shit.png" alt="">
+              <div class="buttom_header_list_text1">Безопасность<p class="buttom_header_list_text2">
+                  300%</p>
+              </div>
+            </div>
+          </li>
+          <li class="buttom_header_list-inner last_child">
+            <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/road.png" alt="">
+              <div class="buttom_header_list_text1">Успех<p class="buttom_header_list_text2">
+                  150%</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <ul class="buttom_header_list buttom_header_list_1194px" style="display: none;">
+          <li class="buttom_header_list-inner">
+            <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/diagr.png" alt="">
+              <div class="buttom_header_list_text1">Запросы<p class="buttom_header_list_text2">
+                  10 000+</p>
+              </div>
+            </div>
+
+          </li>
+          <li class="buttom_header_list-inner">
+            <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/list.png" alt="">
+              <div class="buttom_header_list_text1">Безопасность<p class="buttom_header_list_text2">
+                  100%</p>
+              </div>
+            </div>
+
+          </li>
+          <li class="buttom_header_list-inner">
+            <div class="buttom_header_list-inner_sec"><img src="icons/trafic.svg" alt="">
+              <div class="buttom_header_list_text1">Трафик<p class="buttom_header_list_text2">
+                  300%</p>
+              </div>
+            </div>
+          </li>
+          <li class="buttom_header_list-inner last_child">
+            <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/road.png" alt="">
+              <div class="buttom_header_list_text1">Конверсия<p class="buttom_header_list_text2">
+                  150%</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="buttom_header_sec2 buttom_header_sec2_390px" style="display: none;">
+        <ul id="buttom_header_list_390px" class="buttom_header_list">
+          <div class="buttom_header_list_container_1">
+            <li class="buttom_header_list-inner">
+              <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/diagr.png" alt="">
+                <div class="buttom_header_list_text1">Запросы<p class="buttom_header_list_text2">
+                    10 000+</p>
+                </div>
+              </div>
+
+            </li>
+            <li class="buttom_header_list-inner">
+              <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/list.png" alt="">
+                <div class="buttom_header_list_text1">Безопасность<p class="buttom_header_list_text2">
+                    100%</p>
+                </div>
+              </div>
+
+            </li>
+          </div>
+          <div class="buttom_header_list_container_2">
+            <li class="buttom_header_list-inner">
+              <div class="buttom_header_list-inner_sec"><img src="icons/trafic.svg" alt="">
+                <div class="buttom_header_list_text1">Трафик<p class="buttom_header_list_text2">
+                    300%</p>
+                </div>
+              </div>
+            </li>
+            <li class="buttom_header_list-inner last_child">
+              <div class="buttom_header_list-inner_sec"><img src="icons/Section/Section/Paragraph/road.png" alt="">
+                <div class="buttom_header_list_text1">Конверсия<p class="buttom_header_list_text2">
+                    150%</p>
+                </div>
+              </div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="advantages">
+    <div class="advantages_p">
+      <p class="advantages_p_">Наши преимущества</p>
+    </div>
+    <div class="advantages_text">
+      <div class="advantages_text_left_block">SEO-System?<br><span>Гарантия</span> роста!</div>
+      <div class="advantages_text_right_block">
+        <p class="advantages_text_p1">Мы используем проверенные стратегии и<br>современные технологии, чтобы ваш сайт
+          занимал топовые позиции в
+          поиске.</p>
+        <p class="advantages_text_p2">С нами вы получаете - индивидуальные решения и долгосрочный рост трафика.</p>
+      </div>
+    </div>
+
+
+
+    <div class="obertka_slider">
+      <div class="advantages_banefits">
+        <ul class="advantages_banefits_card">
+          <li class="advantages_banefits_card_inner advantages_banefits_card_inner1"
+            data-target="advantages_banefits_card_inner_1">
+            <div class="circle_advantages">
+              <p>01</p>
+            </div>
+            <p>Отправляем в<br> космос позиции<br> вашего сайта</p>
+          </li>
+
+          <li class="advantages_banefits_card_inner advantages_banefits_card_inner_1"
+            style="display: none; transform: rotateY(180deg);" data-target="advantages_banefits_card_inner1">
+            <div class="circle_advantages_2">
+              <p>01</p>
+            </div>
+            <h6>Мы оптимизируем ваш сайт для поисковых систем, создаем качественный контент и наращиваем ссылочный
+              профиль, чтобы
+              повысить видимость в поисковой выдаче и привлечь целевых посетителей. Регулярно анализируем результаты и
+              корректируем
+              стратегию для стабильного роста.</h6>
+            <p>Отправляем в<br> космос позиции<br> вашего сайта</p>
+          </li>
+
+          <li class="advantages_banefits_card_inner advantages_banefits_card_inner2"
+            data-target="advantages_banefits_card_inner_2">
+            <div id="circle_advantages2" class="circle_advantages2">
+              <p>02</p>
+            </div>
+            <p>Сроки <br>продвижения<br>всего от 1 дня!</p>
+          </li>
+
+          <li class="advantages_banefits_card_inner advantages_banefits_card_inner_2"
+            style="display: none; transform: rotateY(180deg);" data-target="advantages_banefits_card_inner2">
+            <div id="circle_advantages2" class="circle_advantages2">
+              <p>02</p>
+            </div>
+            <h6>Мы выводим сайты в топ поисковой выдачи за счет комплексной оптимизации, качественного контента и
+              естественного
+              ссылочного профиля. Постоянно отслеживаем позиции и адаптируем стратегию для максимальной эффективности.
+            </h6>
+            <p>Сроки <br>продвижения<br>всего от 1 дня!</p>
+          </li>
+
+          <li class="advantages_banefits_card_inner advantages_banefits_card_inner3"
+            data-target="advantages_banefits_card_inner_3">
+            <div class="circle_advantages">
+              <p>03</p>
+            </div>
+            <p>Работаем с абсолютно любой тематикой</p>
+          </li>
+
+          <li class="advantages_banefits_card_inner advantages_banefits_card_inner_3"
+            style="display: none; transform: rotateY(180deg);" data-target="advantages_banefits_card_inner3">
+            <div class="circle_advantages_2">
+              <p>03</p>
+            </div>
+            <h6>Комплексно продвигаем сайты в поисковых системах: от технической оптимизации до создания полезного
+              контента и
+              естественного ссылочного роста. Постоянно анализируем эффективность и адаптируем стратегию для достижения
+              ваших
+              бизнес-целей.
+            </h6>
+            <p>Работаем с абсолютно любой тематикой</p>
+          </li>
+        </ul>
+      </div>
+      <div class="advantages_slider_indicators">
+        <div class="advantages_slider_indicator active" data-slide="0"></div>
+        <div class="advantages_slider_indicator" data-slide="1"></div>
+        <div class="advantages_slider_indicator" data-slide="2"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="services">
+    <div class="services_text">
+      <h1>Наши услуги</h1>
+      <p>Услуги, которые ускоряют рост вашего бизнеса</p>
+    </div>
+
+    <div class="services_container">
+      <div id="services_cards" class="services_cards">
+        <ul class="services_cards_inner">
+          <li class="services_card">
+            <div class="services_card_container">
+              <div class="services_card_top">
+                <button>Топовые позиции</button>
+              </div>
+              <h2>SEO<br>продвижение</h2>
+              <div class="services_card_bottom">
+                <p>01</p>
+                <div class="services_card_bottom_rigth">
+                  <button>Рост бизнеса</button>
+                  <img src="images/services_diarg.svg" alt="">
+                </div>
+              </div>
+              <img src="images/Vector.svg" alt="">
+            </div>
+          </li>
+    
+          <li class="services_card">
+            <div class="services_card_container">
+              <div class="services_card_top">
+                <button>Всё включено</button>
+              </div>
+              <h2>Разработка<br>сайтов</h2>
+              <div class="services_card_bottom">
+                <p>02</p>
+                <div class="services_card_bottom_rigth">
+                  <button>Качество</button>
+                  <img src="images/services_2.svg" alt="">
+                </div>
+              </div>
+              <img src="images/Vector.svg" alt="">
+            </div>
+          </li>
+    
+          <li class="services_card">
+            <div class="services_card_container">
+              <div class="services_card_top">
+                <button>Гарантия качества</button>
+              </div>
+              <h2>Интернет<br>магазины</h2>
+              <div class="services_card_bottom">
+                <p>03</p>
+                <div class="services_card_bottom_rigth">
+                  <button>Скорость</button>
+                  <img src="images/services_raketa.svg" alt="">
+                </div>
+              </div>
+              <img src="images/Vector.svg" alt="">
+            </div>
+          </li>
+        </ul>
+      </div>
+    
+      <!-- Пагинация для слайдера -->
+      <div class="services_slider_indicators">
+        <div class="services_slider_indicator active" data-slide="0"></div>
+        <div class="services_slider_indicator" data-slide="1"></div>
+        <div class="services_slider_indicator" data-slide="2"></div>
+      </div>
+    
+      <!-- Кнопки навигации -->
+     
+    </div>
+  </section>
+
+  <section class="discount">
+    <div class="discount_content">
+      <div class="discount_content_left">
+        <div class="discount_h2">
+          <h2>Скидка 50%<br>на SEO-продвижение!</h2>
+        </div>
+        <div class="discount_inner">
+          <div class="discount_time">
+            <p>До окончания акции осталось:</p>
+            <div class="timer-container">
+              <div class="time-unit">
+                <div class="time_backgroung">
+                  <div class="time-value" id="days">00</div>
+                </div>
+                <div class="time-label">дней</div>
+              </div>
+              <div class="time-unit">
+                <div class="time_backgroung">
+                  <div class="time-value" id="hours">00</div>
+                </div>
+                <div class="time-label">часов</div>
+              </div>
+              <div class="time-unit">
+                <div class="time_backgroung">
+                  <div class="time-value" id="minutes">00</div>
+                </div>
+                <div class="time-label">минут</div>
+              </div>
+              <div class="time-unit">
+                <div class="time_backgroung">
+                  <div class="time-value" id="seconds">00</div>
+                </div>
+                <div class="time-label">cекунд</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="discount_sale">
+          <p>Скидка только до конца месяца - успей <br> поднять свой сайт в топ Google и Яндекс!</p>
+          <button class="btn btn_sale">Получить скидку
+            <img src="images/arrow-black.svg">
+          </button>
+        </div>
+      </div>
+      <div class="discount_graph_container">
+      <div class="discount_graph">
+        <div class="discount_graph_text">
+          <p class="discount_graph_text1">Специальное предложение</p>
+          <p class="discount_graph_text2">Гарантированный рост трафика</p>
+          <p class="discount_graph_text3">Ваш сайт уверенно растет в поисковой выдаче.
+            <br>Дальше - больше!
+          </p>
+        </div>
+        <div class="discount_graph_inner"></div>
+      </div>
+      </div>
+  </section>
+
+  <script src="main.js"></script>
+  <script src="card.js"></script>
+  <script src="timer.js"></script>
+  <script src="main_query.js"></script>
+  <script src="slider.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1153 @@
+@media (max-width: 1194px) {
+  
+  body{
+    width: 1194px;
+  }
+  .nav{
+    position: relative;
+  }
+  .header{
+    width: 1016px;
+      margin-right: auto;
+margin-left: auto;
+  }
+.nav{
+    width: 1016px;
+    margin-right: auto;
+margin-left: auto;
+}
+.header_container{
+  width: 1016px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hidden-item {
+    display: none;
+}
+
+    /* Скрываем hidden-item элементы по умолчанию */
+    .hidden-item {
+        display: none;
+    }
+    
+    /* Показываем visible-item элементы по умолчанию */
+    .visible-item {
+        display: block;
+    }
+    
+    .more-services {
+        display: block;
+    }
+    
+    
+    
+    /* Когда меню раскрыто - скрываем visible-item и показываем hidden-item */
+    .header_nav.expanded .visible-item {
+        display: none;
+    }
+    
+    .header_nav.expanded .hidden-item {
+        display: block;
+        animation: fadeIn 0.3s ease;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+
+
+
+.text{
+  width: 1108px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 190px;
+}
+.text>img{
+width: 649px;
+height: 127px;
+}
+.text > p {
+    font-size: 16px;
+    display: block;
+    line-height: 1;
+    font-weight: 400;
+    margin: 14.36px 0 14.36px 0;
+}
+
+
+
+
+
+.container_2{
+  width: 1108px;
+}
+
+
+
+.cards-row {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  height: 348px;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 10px;
+}
+
+
+.card:nth-child(2n) {
+  background-color: var(--color-enabled);
+}
+
+.card-main {
+  background-image: url(images/card1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  grid-column: span 8;
+  cursor: default;
+  width: 614px;
+  height: 348px;
+  background-position: 50% 50%;
+}
+
+.card-content_2,
+.card-content_3,
+.card-content_4,
+.card-content_5,
+.card-content_6 {
+  width: 202px;
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
+  display: none; /* Скрываем по умолчанию */
+}
+
+
+.card-content_container1 {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  top: 15px;
+  left: 19px;
+}
+
+.card-content_button_container {
+  position: relative;
+}
+
+.card-content_container2 {
+  position: absolute;
+  display: flex;
+  top: 55px;
+  left: 19px;
+  gap: 8px;
+}
+.card-content_button_container > button {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background: rgba(2, 93, 200, 0.45);
+}
+.card-content_button_container > button > p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  padding: 5px 9px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+
+.card-content_button:not(.card-content_button_1):before {
+display: none;
+} 
+
+.circle {
+  position: absolute;
+  z-index: 56;
+  display: flex;
+  height: 35px;
+  right: 12px;
+  bottom: 11px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.circle > p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: SemiBold;
+  font-size: 18px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.card-content_button {
+  display: inline;
+}
+.card_footer {
+  display: flex;
+  gap: 158px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+  align-items: center;
+}
+.card_footer_inner {
+  display: flex;
+  width: 385px;
+  height: 20px;
+  gap: 9px;
+  align-items: center;
+}
+
+.card_footer_inner__h3 {
+  font-family: "Segoe UI" sans-serif;
+  font-weight: 400;
+  font-style: "Semibold";
+  font-size: 20px;
+
+  line-height: 101%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+}
+.circle_1 {
+  z-index: 56;
+  display: flex;
+  height: 35px;
+
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.circle_1 > p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: SemiBold;
+  font-size: 18px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.card-main {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.card-small {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+.card-content_inner {
+  text-shadow: 1px 4px 4px rgba(12, 45, 93, 0.28);
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  left: -45px;
+  bottom: 190px;
+  position: absolute;
+  width: 150px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  rotate: calc(-90deg);
+}
+
+.card-main {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.card-small .card-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  text-align: center;
+}
+
+.card-small.active .card-description {
+  max-height: 200px;
+}
+
+
+
+.card-content_none {
+  position: relative;
+  text-shadow: none;
+  width: 182px;
+  height: 317px;
+  margin: 11px 10px;
+  background: rgba(2, 75, 186, 0.26);
+  backdrop-filter: blur(32.72222137451172px);
+  box-shadow: 0px 2.27px 2.27px 0px rgba(255, 255, 255, 0.15) inset;
+  box-shadow: 0px 0px 34.01px 0px rgba(255, 255, 255, 0.05) inset;
+  border-radius: 33px;
+}
+.card-content_none_text__h2 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+.card-content_none_text > p {
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: Regular;
+  font-size: 14px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+
+
+
+.circle_and_image {
+  display: flex;
+  margin: 14px 13px 18px 13px;
+  gap: 50px;
+}
+
+.circle_and_image>img{
+height: 66px;
+width: 66px;
+}
+
+
+.stats{
+  width: 1108px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.text_2 {
+  display: flex;
+  width: 1108px;
+  height: 21px;
+  gap: 67px;
+
+  margin: 20px auto 40px 0;
+}
+
+.buttom_header {
+  display: flex;
+  align-items: center;
+}
+.buttom_header_list {
+  display: none !important;
+
+}
+.buttom_header_list_1194px{
+  display: block !important;
+ display: flex !important;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.buttom_header_sec1 {
+}
+.btn_audit:hover {
+  scale: calc(1.1);
+}
+
+.buttom_header_h2 {
+  width: 312px;
+  margin-bottom: 20px;
+  letter-spacing: 0cap;
+  font-family: "Segoe UI" sans-serif;
+  font-weight: 600;
+  font-style: "Semibold";
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.buttom_header_list-inner {
+  padding: 15px 18px;
+  width: 188px;
+  height: 87px;
+
+  border-radius: 30px;
+
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.buttom_header_list-inner_sec {
+  display: flex;
+
+  align-items: center;
+}
+.buttom_header_list-inner_sec > img {
+  height: 54px;
+  margin-right: 12px;
+}
+.buttom_header_list_text1 {
+  line-height: 1.5;
+}
+.buttom_header_list_text2 {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.last_child {
+  margin-right: 0;
+}
+
+
+
+
+.advantages {
+  width: 1108px;
+  height: 753px;
+  margin: 50px auto 50px auto;
+}
+
+.advantages_text {
+  display: flex;
+  gap: 74px;
+  margin-bottom: 45px;
+}
+
+.advantages_text_left_block {
+  display: block;
+  width: 656px;
+  height: 150px;
+  font-family: "Segoe UI" sans-serif;
+  font-weight: 600;
+  font-style: "Semibold";
+  font-size: 64px;
+  color: rgba(57, 57, 57, 1);
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.advantages_text_left_block > span {
+  color: var(--color-enabled);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-style: "Semibold";
+  width: 636px;
+
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.advantages_text_right_block {
+  width: 408px;
+
+  height: 106px;
+  padding-bottom: 40px;
+}
+
+.advantages_text_p1 {
+  margin-bottom: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.advantages_text_p2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.advantages_p_ {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: "SemiBold";
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 3px;
+}
+
+.advantages_p {
+  margin-bottom: 20px;
+}
+
+.advantages_banefits {
+  width: 1108px;
+  height: 527px;
+}
+
+.advantages_banefits_card {
+  display: flex;
+  gap: 26px;
+}
+
+.advantages_banefits_card_inner {
+  cursor: pointer;
+  width: 352px;
+  position: relative;
+  height: 527px;
+  border-radius: 30px;
+}
+
+.advantages_banefits_card_inner1 {
+
+  background: radial-gradient(
+      82.18% 82.18% at 50% 25.51%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.04) 58.44%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(images/benef1.jpg) center/cover no-repeat;
+  background-color: #f4f4f4; 
+}
+
+.advantages_banefits_card_inner2 {
+  background: radial-gradient(
+      85.09% 85.09% at 50% 98.59%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0.04) 71.63%,
+      #000000 100%
+    ),
+    url(images/benef2.jpg) center/cover no-repeat;
+}
+
+.advantages_banefits_card_inner3 {
+  background: radial-gradient(
+      81.32% 81.32% at 50% 24.41%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(1, 1, 2, 0.04) 58.78%,
+      #020203 100%
+    ),
+    url(images/benef3.jpg) 71.8% 50% / cover no-repeat;
+}
+
+.advantages_banefits_card_inner_1 > p {
+}
+
+.circle_advantages {
+  z-index: 56;
+  display: flex;
+  height: 76px;
+  position: absolute;
+  top: 30px;
+  left: 26px;
+  width: 76px;
+  border: 1px solid white;
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+}
+.circle_advantages > p {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Medium;
+  font-size: 20px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.circle_advantages2 {
+  z-index: 56;
+  display: flex;
+  height: 76px;
+  position: absolute;
+  bottom: 31px;
+  left: 23.5px;
+  width: 76px;
+  border: 1px solid rgba(147, 147, 147, 1);
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+}
+.circle_advantages2 > p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(57, 57, 57, 1);
+}
+.circle_advanages_position {
+  position: relative;
+}
+.advantages_banefits_card_inner > p {
+  position: absolute;
+  bottom: 31px;
+  left: 23.5px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-style: "Semibold";
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 101%;
+  letter-spacing: 0%;
+}
+.advantages_banefits_card_inner2 > p {
+  position: absolute;
+  top: 41px;
+  left: 26px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-style: "Semibold";
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 101%;
+  letter-spacing: 0%;
+}
+
+.advantages_banefits_card_2 {
+}
+
+.advantages_banefits_card {
+  margin-bottom: 1200px;
+}
+
+.advantages_banefits_card_inner_1 {
+  background: rgba(244, 244, 244, 1);
+  display: none;
+}
+
+.advantages_banefits_card_inner_2 {
+  background: rgba(244, 244, 244, 1);
+  display: none;
+}
+.advantages_banefits_card_inner_3 {
+  background: rgba(244, 244, 244, 1);
+  display: none;
+}
+.advantages_banefits_card_inner_2 > p {
+  position: absolute;
+  width: 305px;
+  height: 121px;
+  border-bottom: 1px solid rgba(147, 147, 147, 1);
+  top: 31px;
+  left: 23.5px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-style: "Semibold";
+  font-size: 32px;
+  color: rgba(57, 57, 57, 1);
+  line-height: 101%;
+  letter-spacing: 0%;
+}
+.advantages_banefits_card_inner_1 > p {
+  width: 305px;
+  padding-top: 25px;
+  border-top: 1px solid rgba(147, 147, 147, 1);
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-style: "Semibold";
+  font-size: 32px;
+  color: rgba(57, 57, 57, 1);
+  line-height: 101%;
+  letter-spacing: 0%;
+}
+.advantages_banefits_card_inner_3 > p {
+  font-family: "Segoe UI", sans-serif;
+  width: 305px;
+  padding-top: 30px;
+  font-weight: 400;
+  font-style: "Semibold";
+  font-size: 32px;
+  color: rgba(57, 57, 57, 1);
+  line-height: 101%;
+  letter-spacing: 0%;
+  border-top: 1px solid rgba(147, 147, 147, 1);
+}
+#advantages_banefits_card_inner_1_h6 {
+   border-top: 0;
+
+  position: static !important;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+color: rgba(147, 147, 147, 1);
+
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  width: 305px;
+  margin: 125px 23.5px 44px 25.5px;
+}
+#advantages_banefits_card_inner_2_h6 {
+   border-bottom: 0;
+  position: static;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+color: rgba(147, 147, 147, 1);
+width: 305px;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+
+  margin: 196px 23.5px 0 23.5px;
+}
+#advantages_banefits_card_inner_3_h6  {
+   border-top: 0;
+  position: static;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+color: rgba(147, 147, 147, 1);
+
+  line-height: 100%;
+  letter-spacing: 0%;
+
+  width: 340px;
+  margin: 151px 23.5px 44px 23.5px;
+}
+
+.circle_advantages_2 {
+  z-index: 56;
+  display: flex;
+  height: 76px;
+  position: absolute;
+  top: 31px;
+  left: 23.5px;
+  width: 76px;
+  border: 1px solid rgba(147, 147, 147, 1);
+  border-radius: 50%;
+
+  align-items: center;
+  justify-content: center;
+}
+.circle_advantages_2 > p {
+  color: rgba(57, 57, 57, 1);
+
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Medium;
+  font-size: 20px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+/* .advantages_banefits_card2{
+  display: none;
+} */
+
+.advantages_banefits_card_inner {
+  cursor: pointer;
+  transition: all 0.4s ease;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+
+.advantages_banefits_card_inner:hover {
+  transform: translateY(0px) rotateY(10deg);
+
+}
+
+/* //SERVICES */
+/* //SERVICES */
+/* //SERVICES */
+/* //SERVICES */
+/* //SERVICES */
+
+
+.services {
+  width: 1108px;
+  height: 501px;
+  margin: 0 auto 40px auto;
+}
+.services_text {
+  display: flex;
+  gap: 264px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.servises_text_H1 {
+  width: 445px !important;
+  display: block;
+  display: flex !important;
+  align-items: center !important;
+  height: 92px !important;
+  font-family: "Segoe UI", sans-serif !important;
+  font-weight: 600 !important;
+  font-style: "Semibold" !important;
+  font-size: 64px !important;
+  color: rgba(57, 57, 57, 1) !important;
+  line-height: 100% !important;
+  letter-spacing: 0% !important;
+}
+
+.services_text > p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.services_cards_inner {
+  display: flex;
+  gap: 45px;
+}
+
+.services_card {
+  width: 338px;
+  border-radius: 33px;
+  background-color: rgba(244, 244, 244, 1);
+  height: 369px;
+}
+
+.services_card_container {
+  position: relative;
+  width: 288px;
+  height: 307px;
+  margin: 31px 25px;
+}
+
+.services_card_container > img {
+  position: absolute;
+  height: 50px;
+  right: 0;
+  cursor: pointer;
+  top: 0;
+}
+.services_card_container > img:hover {
+  scale: calc(1.1);
+}
+
+.services_card_top {
+  margin-bottom: 35px;
+}
+
+.services_card_top > button {
+  border: rgba(57, 57, 57, 1) solid 1px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 16px;
+  height: 29px;
+  padding: 4px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.services_card_container__h2 {
+  font-family: "Roboto";
+  font-weight: 600;
+  font-style: "SemiBold";
+  font-size: 32px;
+  color: rgba(57, 57, 57, 1);
+  margin-bottom: 58px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.services_card_bottom {
+  display: flex;
+}
+
+.services_card_bottom > p:first-child {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 142px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.services_card_bottom_rigth {
+  gap: 6px;
+  display: flex;
+  position: absolute;
+  right: -3px;
+
+}
+
+.services_card_bottom_rigth > button {
+  border: rgba(57, 57, 57, 1) solid 1px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 16px;
+  height: 29px;
+  padding: 4px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+/* DISCOUNT */
+/* DISCOUNT */
+/* DISCOUNT */
+/* DISCOUNT */
+/* DISCOUNT */
+.discount_content {
+  display: flex;
+  align-items: center;
+  border-radius: 33px;
+  background-image: url(images/discount_bacgr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+  width: 1108px;
+  height: 546px;
+  background-color: #3531;
+  margin: 0 auto 137px auto;
+}
+
+.discount_content_left {
+  width: 683px;
+  height: 462px;
+  margin: 42px 30px 42px 26px;
+}
+
+.discount__h2 {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  font-style: "Semibold";
+  font-size: 48px;
+
+  line-height: 112.99999999999999%;
+  letter-spacing: 0cap;
+  color: rgba(255, 255, 255, 1);
+}
+
+.discount_h2 {
+  margin-bottom: 29px;
+}
+
+/* TIMER */
+
+.timer-container {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 36px;
+  align-items: center;
+}
+
+.time-unit {
+  display: block;
+  text-align: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+/* Добавляем двоеточия после каждого элемента, кроме последнего */
+.time-unit:not(:last-child)::after {
+  content: ":";
+  position: absolute;
+  right: -26px;
+  top: 0;
+  font-size: 110px;
+  background: linear-gradient(135deg, #00458f, #4fb9f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  line-height: 110px; /* выравниваем по высоте цифр */
+}
+
+.time-value {
+  width: 128px;
+  height: 116px;
+  font-size: 106px;
+  color: #007bff;
+  /* padding: 10px; */
+  display: inline-block;
+  background: linear-gradient(135deg, #00458f, #4fb9f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.time_backgroung {
+  background-color: rgba(37, 43, 56, 1);
+  border-radius: 33px;
+}
+
+.time-label {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  color: rgba(147, 147, 147, 1);
+  margin-top: 4px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.discount_time > p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(147, 147, 147, 1);
+  margin-bottom: 13px;
+}
+
+.discount_graph {
+  position: relative;
+  width: 340px;
+  border-radius: 33px;
+  background: rgba(255, 255, 255, 0.21);
+
+  backdrop-filter: blur(30.72222137451172px);
+
+  box-shadow: 0px 2.27px 2.27px 0px rgba(255, 255, 255, 0.15) inset;
+
+  box-shadow: 0px 0px 34.01px 0px rgba(255, 255, 255, 0.05) inset;
+
+  height: 251px;
+}
+
+.discount_graph_inner {
+  position: absolute;
+  background-image: url(images/discount_graph.svg);
+  background-repeat: no-repeat;
+  background-size: 249px 170px;
+  bottom: 24px;
+  right: 46px;
+  width: 249px;
+  height: 170px;
+}
+.discount_graph_text {
+  display: grid;
+  gap: 11px;
+  margin: 23px 179px 23px 21px;
+}
+.discount_graph_text1 {
+  font-family: Roboto;
+  font-weight: 400;
+
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+
+  line-height: 100%;
+  letter-spacing: 0cap;
+}
+
+.discount_graph_text2 {
+  font-family: Roboto;
+  font-weight: 600;
+
+  font-size: 20px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 0%;
+}
+.discount_graph_text3 {
+  font-family: Roboto;
+  font-weight: 400;
+
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.discount_sale > p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 37px;
+}
+.btn_sale {
+  width: 156px;
+  height: 36px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  background-color: white;
+  color: rgba(57, 57, 57, 1);
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btn_sale:hover {
+  background: rgba(199, 199, 199, 1);
+  scale: calc(1.02);
+}
+
+.btn_sale:active {
+  background: rgba(159, 159, 159, 1);
+}
+
+.more-services{
+  display: none;
+}
+
+}
+
+
+
+@media (min-width: 1195px) {
+    .more-services {
+        display: none !important;
+    }
+    
+    .hidden-item {
+        display: block !important;
+    }
+
+  }
+
+
+
+
+
+
+
